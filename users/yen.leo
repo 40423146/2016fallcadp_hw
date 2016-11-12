@@ -45,7 +45,7 @@
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
-<v t="leo.20161006153352.2"><vh>Recovered Nodes</vh>
+<v t="leo.20161006153352.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20161006153352.3" a="E"><vh>Recovered node "head" from @clean index.html</vh>
 <v t="leo.20161006153352.4"><vh>old:head</vh></v>
 <v t="leo.20161006153352.5"><vh>new:head</vh></v>
@@ -55,7 +55,7 @@
 <v t="leo.20161006153352.8"><vh>new:&lt;&lt; 投影片標題 &gt;&gt;</vh></v>
 </v>
 </v>
-<v t="leo.20161020163936.2"><vh>Recovered Nodes</vh>
+<v t="leo.20161020163936.2" a="E"><vh>Recovered Nodes</vh>
 <v t="leo.20161020163936.3"><vh>Recovered node "head" from @clean index.html</vh>
 <v t="leo.20161020163936.4"><vh>old:head</vh></v>
 <v t="leo.20161020163936.5"><vh>new:head</vh></v>
@@ -249,6 +249,155 @@ print("hello")
 <t tx="amd.20151216151325.1">@language xml
 @tabwidth -4
 @others
+&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+
+&lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+&lt;meta name="author" content="Hakim El Hattab"&gt;
+
+&lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+&lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt;
+
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/reveal.css"&gt;
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/css/theme/black.css" id="theme"&gt;
+
+&lt;!-- Theme used for syntax highlighting of code --&gt;
+&lt;link rel="stylesheet" href="https://cad-lab.github.io/cadlab_data/reveal/lib/css/zenburn.css"&gt;
+
+&lt;!-- Printing and PDF exports --&gt;
+&lt;script&gt;
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cad-lab.github.io/cadlab_data/reveal/css/print/pdf.css' : 'https://cad-lab.github.io/cadlab_data/reveal/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+&lt;/script&gt;
+
+&lt;!--[if lt IE 9]&gt;
+&lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/html5shiv.js"&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+	
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class="reveal"&gt;
+&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;div class="slides"&gt;
+        &lt;section&gt;
+            &lt;h1&gt;40423146 學員的課程簡報&lt;/h1&gt;
+            &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+            &lt;p&gt;
+                &lt;small&gt;
+                Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; /
+                &lt;a href="http://twitter.com/hakimel"&gt;@hakimel&lt;/a&gt;
+                &lt;/small&gt;
+            &lt;/p&gt;
+            &lt;a href="blog/index.html"&gt;blog&lt;/a&gt;
+        &lt;/section&gt;
+        	
+        &lt;section&gt;
+            &lt;h2&gt;Hello There&lt;/h2&gt;
+            &lt;p&gt;
+            reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+            &lt;/p&gt;
+        &lt;/section&gt;
+
+
+        					
+        &lt;!-- Example of nested vertical slides --&gt;
+        &lt;section&gt;
+
+            &lt;section&gt;
+                    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
+                    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
+                    &lt;p&gt;
+                    Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.
+                    &lt;/p&gt;
+                    &lt;br&gt;
+                    &lt;a href="#" class="navigate-down"&gt;
+                    &lt;img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow"&gt;
+                    &lt;/a&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+                        &lt;h2&gt;Basement Level 1&lt;/h2&gt;
+                        &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+            &lt;/section&gt;
+            
+            &lt;section&gt;
+                        &lt;h2&gt;Basement Level 2&lt;/h2&gt;
+                        &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
+                        &lt;br&gt;
+                        &lt;a href="#/2"&gt;
+                        &lt;img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);"&gt;
+                        &lt;/a&gt;
+            &lt;/section&gt;
+            
+        &lt;/section&gt;
+
+        						
+        &lt;section&gt;
+            &lt;h2&gt;Slides&lt;/h2&gt;
+            &lt;p&gt;
+            Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="http://slides.com" target="_blank"&gt;http://slides.com&lt;/a&gt;.
+            &lt;/p&gt;
+        &lt;/section&gt;
+
+
+        					
+        &lt;section data-markdown&gt;
+                &lt;script type="text/template"&gt;
+                        ## Markdown support
+                
+                        Write content using inline or external Markdown.
+                        Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                
+                        ```
+                        &lt;section data-markdown&gt;
+                          ## Markdown support
+                
+                          Write content using inline or external Markdown.
+                          Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+                        &lt;/section&gt;
+                        ```
+                &lt;/script&gt;
+        &lt;/section&gt;
+
+        						
+        &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
+        &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
+        &lt;script&gt;
+                // More info https://github.com/hakimel/reveal.js#configuration
+                Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    history: true,
+                    center: true,
+        
+                    transition: 'slide', // none/fade/slide/convex/concave/zoom
+        
+                    // More info https://github.com/hakimel/reveal.js#dependencies
+                    dependencies: [
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/zoom-js/zoom.js', async: true },
+                        { src: 'https://cad-lab.github.io/cadlab_data/reveal/plugin/notes/notes.js', async: true }
+                    ]
+                });
+        &lt;/script&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
 
 
 </t>
@@ -720,7 +869,7 @@ Diff...
 + 
 + #電腦輔助設計課程
 + 
-+ ###設計二甲 第二組 40423117 李國豪
++ ###
 + 
 + &lt;small&gt;
 + Created by [Hakim El Hattab](http://hakim.se)
@@ -1748,7 +1897,7 @@ make.start()
 <t tx="leo.20161020163936.9">(uncached) amd.20161004095719.1
 Diff...
 -         &lt;section&gt;
--             &lt;h1&gt;40423145 學員的課程簡報&lt;/h1&gt;
+-             &lt;h1&gt;40423146 學員的課程簡報&lt;/h1&gt;
 + &lt;section data-markdown&gt;
 +     &lt;script type="text/template"&gt;
   @others
